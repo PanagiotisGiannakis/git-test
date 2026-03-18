@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item {
+  display: block;
+  justify-content: center;
+  align-items: center; 
+  flex-grow: initial; 
+}
+
+img {
+    max-width: fit-content;
+    max-height:fit-content ;
+}   
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
