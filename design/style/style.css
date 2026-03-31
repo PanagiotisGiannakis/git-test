@@ -5,9 +5,7 @@
     --c-main-text: hsl(216, 15%, 48%);
     --c-sec-text: hsl(218, 44%, 22%);
 }
-
 /*Font*/
-
 .main-text {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -15,7 +13,6 @@
   font-style: normal;
   color: var(--c-main-text);
 }
-
 .bolt-text {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
@@ -23,7 +20,6 @@
   font-style: normal;
   color: var(--c-sec-text);
 }
-
 /*Global*/
 *  {
     margin: 0;
@@ -32,15 +28,12 @@ img {
     max-width: 100%;
     display: block;
 }
-
 a {
     text-decoration: none;
 }
-
 a:hover {
     opacity: 0.8;
 } 
-
 body{
     min-height: 100vh;
     margin: 2em;
@@ -65,10 +58,5 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--c-white);
-    
+    background-color: var(--c-white);  
 }
-/* .part{
-    width:fit-content;
-    height: fit-content;
-} */
